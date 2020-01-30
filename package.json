@@ -1,0 +1,28 @@
+{
+  "name": "challenge-javascript-08",
+  "version": "1.0.0",
+  "description": "JavaScript Array Filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlatziMaster/challenge-js-08.git"
+  },
+  "author": "Nicolas Molina <nicolas@platzi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PlatziMaster/challenge-js-08/issues"
+  },
+  "homepage": "https://github.com/PlatziMaster/challenge-js-08#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "<rootDir>/(node_modules)/"
+    ]
+  }
+}
