@@ -1,4 +1,4 @@
-const getEvenNumbers = require ('../index');
+const getEvenNumbers = require ('../../utils/getEvenNumbers');
 
 describe('getEvenNumbers', () => {
 
@@ -18,6 +18,11 @@ describe('getEvenNumbers', () => {
     expect(getEvenNumbers([-1,-7,-9])).toEqual([]);
     expect(getEvenNumbers([111,333,555,777])).toEqual([]);
     expect(getEvenNumbers([])).toEqual([]);
+  });
+
+  it('should return an array with odd numbers and strings removed', () => {
+    expect(getEvenNumbers(['david',0,1,2,3,'cuatro',5,6,7,8,9])).toEqual([0,2,6,8]);
+    expect(getEvenNumbers(['1',2,3,'4',5,6,'7',8,'9'])).toEqual([2,6,8]);
   });
 
 });
