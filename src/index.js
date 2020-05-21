@@ -1,5 +1,3 @@
-const getEvenNumbers = (numbersArray) => {
-  // your code
-}
+const getEvenNumbers = require('./utils/getEvenNumbers')
 
-module.exports = getEvenNumbers;
+console.log(getEvenNumbers([1,2,3,4,5,6,8,9]))
