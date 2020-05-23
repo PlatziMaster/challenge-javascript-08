@@ -4,6 +4,8 @@ describe('getEvenNumbers', () => {
 
   it('should return an array with correct number of items', () => {
     expect(getEvenNumbers([1,2,3,4,5,6,8,9]).length).toBe(4);
+    expect(getEvenNumbers([1,2,3,4,5,6,8,9,null]).length).toBe(4);
+    expect(getEvenNumbers([1,2,3,4,5,6,8,9,'']).length).toBe(4);
     expect(getEvenNumbers([22,44,66,88,24,-23,-24]).length).toBe(6);
   });
 
