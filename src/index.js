@@ -1,5 +1,8 @@
+const esPar = item => item%2 == 0
+
 const getEvenNumbers = (numbersArray) => {
-  // your code
+  const res = numbersArray.filter(esPar)
+  return res
 }
 
-module.exports = getEvenNumbers;
+module.exports = getEvenNumbers
