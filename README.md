@@ -1,5 +1,7 @@
 # challenge-javascript-08 - JavaScript Array Filter
 
+![](https://raw.githubusercontent.com/Angelozam17/challenge-javascript-08/master/src/assets/screenshot.png)
+
 Los Arrays en Javascript soportan la función `filter`, esta puede evaluar cada elemento del Array y crear un nuevo Array con los elementos que cumplen con una condición.
 
 Usando la función `filter` debes buscar todos los números pares de un Array.
