@@ -31,5 +31,9 @@ Debes hacer un "Fork" de este proyecto, revolver los problemas y crear un Pull R
 ### Contribuir
 Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [challenge-javascript-08](https://github.com/platzimaster/challenge-javascript-08/)
 
+### Otra clase que tambien te ayudará
+Tambien Existe el siguiente recurso para los estudiantes de Platzi Master
+[Clase](https://platzi.com/clases/1931-platzi-master-nicolas-molina/29125-map-y-filter/)
+
 ### Licencia
 challenge-javascript-08 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
