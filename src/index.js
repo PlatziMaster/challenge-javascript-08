@@ -1,5 +1,6 @@
 const getEvenNumbers = (numbersArray) => {
-  // your code
+  let result = numbersArray.filter(item => Number.isInteger(item / 2))
+  return result
 }
 
 module.exports = getEvenNumbers;
