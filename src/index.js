@@ -1,5 +1,8 @@
 const getEvenNumbers = (numbersArray) => {
-  // your code
-}
+  
+  return numbersArray.filter((i) => i % 2 == 0)
+  
+}	
+
 
 module.exports = getEvenNumbers;
