@@ -4,7 +4,8 @@
   "description": "JavaScript Array Filter",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "filter": "src/index.js"
   },
   "repository": {
     "type": "git",
