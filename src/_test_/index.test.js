@@ -1,3 +1,5 @@
+'use strict'
+
 const getEvenNumbers = require ('../index');
 
 describe('getEvenNumbers', () => {

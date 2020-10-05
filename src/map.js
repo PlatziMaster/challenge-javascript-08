@@ -1,3 +1,5 @@
+'use strict'
+
 const numbers = [1,2,3,4];
 const rta = numbers.map(item => item + 2);
 

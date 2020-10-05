@@ -1,5 +1,7 @@
+'use strict'
+
 const getEvenNumbers = (numbersArray) => {
-  // your code
+  return numbersArray.filter(numbersArray => numbersArray % 2 === 0)
 }
 
 module.exports = getEvenNumbers;
