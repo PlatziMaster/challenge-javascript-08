@@ -12,6 +12,7 @@ describe('getEvenNumbers', () => {
     expect(getEvenNumbers([1,3,5,7,9,11,333,2])).toEqual([2]);
     expect(getEvenNumbers([-1,-6,-8])).toEqual([-6,-8]);
     expect(getEvenNumbers([22,44,66,88,24,-23,-24])).toEqual([22,44,66,88,24,-24]);
+    expect(getEvenNumbers([-1, 0, 1])).toEqual([0]);
   });
 
   it('should return an empty array if there are no even numbers', () => {
