@@ -7,8 +7,3 @@ const getEvenNumbers = (numbersArray) => {
 
 module.exports = getEvenNumbers;
 
-/** steps to make work:
-1) go to console in the navigator
-2) copy and paste the code
-3) write in the console: getEvenNumbers([put_you_numbers_here])
-4) result
