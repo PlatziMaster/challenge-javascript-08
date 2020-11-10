@@ -4,7 +4,7 @@
   "description": "JavaScript Array Filter",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll=false"
   },
   "repository": {
     "type": "git",
