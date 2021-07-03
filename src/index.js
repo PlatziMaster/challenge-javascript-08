@@ -1,5 +1,12 @@
 const getEvenNumbers = (numbersArray) => {
-  // your code
-}
+    const result = numbersArray.reduce((pairs, currentNumber) => {
+        if (currentNumber % 2 === 0) {
+            pairs.push(currentNumber);
+        }
+        return pairs;
+    },[]);
 
+    return result;
+}
+  
 module.exports = getEvenNumbers;
