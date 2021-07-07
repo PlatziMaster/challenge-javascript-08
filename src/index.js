@@ -1,5 +1,1 @@
-const getEvenNumbers = (numbersArray) => {
-  // your code
-}
-
-module.exports = getEvenNumbers;
+module.exports = (numbersArray) => numbersArray.filter(number => number%2 === 0)
